@@ -11,10 +11,7 @@ repositories {
 
 dependencies {
     //coroutines
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.3'
-
-    //rx2
-    implementation 'io.reactivex.rxjava2:rxjava:2.2.21'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4'
 
 
     //logging
@@ -24,6 +21,8 @@ dependencies {
 
     //tests
     testImplementation 'org.jetbrains.kotlin:kotlin-test'
+    testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.4'
+
 }
 
 test {
